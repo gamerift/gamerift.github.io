@@ -467,4 +467,7 @@ img.in-text {
   .content-detail h6 {
     font-size: 12px;
   }
+  .video-height{
+    height: 13rem;
+  }
 }
