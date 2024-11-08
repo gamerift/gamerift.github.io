@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gamerift.github.io/sitemap.xml
