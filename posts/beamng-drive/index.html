@@ -255,21 +255,70 @@ Download .torrent
 </label>
 </div>
 <h3 id=game-videos>Game Videos<a hidden class=anchor aria-hidden=true href=#game-videos>#</a></h3>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6"><div class="bg-gray-800 bg-opacity-95">
-<iframe class="w-full rounded video-height" type=text/html src=https://cdn.akamai.steamstatic.com/steam/apps/257056227/movie_max.mp4 allowfullscreen autoplay frameborder=0></iframe>
-</div><div class="bg-gray-800 bg-opacity-95">
-<iframe class="w-full rounded video-height" type=text/html src=https://cdn.akamai.steamstatic.com/steam/apps/256985226/movie_max.mp4 allowfullscreen autoplay frameborder=0></iframe>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6"><div class=video-card>
+<video class="w-full rounded" preload=metadata controls loop playsinline>
+<source src=https://cdn.akamai.steamstatic.com/steam/apps/257056227/movie_max.mp4>
+</video>
+</div><div class=video-card>
+<video class="w-full rounded" preload=metadata controls loop playsinline>
+<source src=https://cdn.akamai.steamstatic.com/steam/apps/256985226/movie_max.mp4>
+</video>
 </div></div>
 <section class=mb-12>
 <h3 class="text-2xl font-bold mb-6">More Game</h3>
 <div class="flex space-x-4 overflow-x-auto cast-scroll pb-4">
-<a href=https://gamerift.github.io/posts/before-they-wake/ aria-label="Before They Wake" class=entry-link>
+<a href=https://gamerift.github.io/posts/drop-duchy/ aria-label="Drop Duchy" class=entry-link>
 <div class="flex-none w-32">
 <div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
-<img alt="Before They Wake" class="w-full h-full object-cover" loading=lazy src=/images/before-they-wake.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
+<img alt="Drop Duchy" class="w-full h-full object-cover" loading=lazy src=/images/drop-duchy.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
 </div>
-<p class="text-sm line-clamp-1">Before They Wake</p>
-<p class="text-muted-foreground text-xs"> 2024/08/24</p>
+<p class="text-sm line-clamp-1">Drop Duchy</p>
+<p class="text-muted-foreground text-xs"> 2025/05/05</p>
+</div>
+</a>
+<a href=https://gamerift.github.io/posts/skoof-simulator/ aria-label="Skoof Simulator" class=entry-link>
+<div class="flex-none w-32">
+<div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
+<img alt="Skoof Simulator" class="w-full h-full object-cover" loading=lazy src=/images/skoof-simulator.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
+</div>
+<p class="text-sm line-clamp-1">Skoof Simulator</p>
+<p class="text-muted-foreground text-xs"> 2024/09/05</p>
+</div>
+</a>
+<a href=https://gamerift.github.io/posts/starseed-pilgrim/ aria-label="Starsed Pilgrim" class=entry-link>
+<div class="flex-none w-32">
+<div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
+<img alt="Starsed Pilgrim" class="w-full h-full object-cover" loading=lazy src=/images/starseed-pilgrim.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
+</div>
+<p class="text-sm line-clamp-1">Starsed Pilgrim</p>
+<p class="text-muted-foreground text-xs"> 2013/04/16</p>
+</div>
+</a>
+<a href=https://gamerift.github.io/posts/thehunter-call-of-the-wild/ aria-label="theHunter: Call of the Wild" class=entry-link>
+<div class="flex-none w-32">
+<div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
+<img alt="theHunter: Call of the Wild" class="w-full h-full object-cover" loading=lazy src=/images/thehunter-call-of-the-wild.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
+</div>
+<p class="text-sm line-clamp-1">theHunter: Call of the Wild</p>
+<p class="text-muted-foreground text-xs"> 2017/02/16</p>
+</div>
+</a>
+<a href=https://gamerift.github.io/posts/surreal-farm/ aria-label="Surreal Farm" class=entry-link>
+<div class="flex-none w-32">
+<div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
+<img alt="Surreal Farm" class="w-full h-full object-cover" loading=lazy src=/images/surreal-farm.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
+</div>
+<p class="text-sm line-clamp-1">Surreal Farm</p>
+<p class="text-muted-foreground text-xs"> 2024/09/13</p>
+</div>
+</a>
+<a href=https://gamerift.github.io/posts/the-moon-2044/ aria-label="The Moon 2044" class=entry-link>
+<div class="flex-none w-32">
+<div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
+<img alt="The Moon 2044" class="w-full h-full object-cover" loading=lazy src=/images/the-moon-2044.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
+</div>
+<p class="text-sm line-clamp-1">The Moon 2044</p>
+<p class="text-muted-foreground text-xs"> 2024/09/04</p>
 </div>
 </a>
 <a href=https://gamerift.github.io/posts/the-universim/ aria-label="The Universim" class=entry-link>
@@ -281,76 +330,31 @@ Download .torrent
 <p class="text-muted-foreground text-xs"> 2024/01/23</p>
 </div>
 </a>
-<a href=https://gamerift.github.io/posts/persona-5-royal/ aria-label="Persona 5 Royal" class=entry-link>
+<a href=https://gamerift.github.io/posts/dead-island-2/ aria-label="Dead Island 2" class=entry-link>
 <div class="flex-none w-32">
 <div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
-<img alt="Persona 5 Royal" class="w-full h-full object-cover" loading=lazy src=/images/persona-5-royal.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
+<img alt="Dead Island 2" class="w-full h-full object-cover" loading=lazy src=/images/dead-island-2.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
 </div>
-<p class="text-sm line-clamp-1">Persona 5 Royal</p>
-<p class="text-muted-foreground text-xs"> 2022/10/21</p>
+<p class="text-sm line-clamp-1">Dead Island 2</p>
+<p class="text-muted-foreground text-xs"> 2024/04/22</p>
 </div>
 </a>
-<a href=https://gamerift.github.io/posts/core-keeper/ aria-label="Core Keeper" class=entry-link>
+<a href=https://gamerift.github.io/posts/va-11-hall-a-cyberpunk-bartender-action/ aria-label="VA-11 Hall-A: Cyberpunk Bartender Action" class=entry-link>
 <div class="flex-none w-32">
 <div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
-<img alt="Core Keeper" class="w-full h-full object-cover" loading=lazy src=/images/core-keeper.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
+<img alt="VA-11 Hall-A: Cyberpunk Bartender Action" class="w-full h-full object-cover" loading=lazy src=/images/va-11-hall-a-cyberpunk-bartender-action.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
 </div>
-<p class="text-sm line-clamp-1">Core Keeper</p>
-<p class="text-muted-foreground text-xs"> 2024/08/27</p>
+<p class="text-sm line-clamp-1">VA-11 Hall-A: Cyberpunk Bartender Action</p>
+<p class="text-muted-foreground text-xs"> 2016/06/21</p>
 </div>
 </a>
-<a href=https://gamerift.github.io/posts/there-is-no-game-wrong-dimension/ aria-label="There Is No Game: Wrong Dimension" class=entry-link>
+<a href=https://gamerift.github.io/posts/soulmask/ aria-label=Soulmask class=entry-link>
 <div class="flex-none w-32">
 <div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
-<img alt="There Is No Game: Wrong Dimension" class="w-full h-full object-cover" loading=lazy src=/images/there-is-no-game-wrong-dimension.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
+<img alt=Soulmask class="w-full h-full object-cover" loading=lazy src=/images/soulmask.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
 </div>
-<p class="text-sm line-clamp-1">There Is No Game: Wrong Dimension</p>
-<p class="text-muted-foreground text-xs"> 2020/08/06</p>
-</div>
-</a>
-<a href=https://gamerift.github.io/posts/rugrats-adventures-in-gameland/ aria-label="Rugrats: Adventures in Gameland" class=entry-link>
-<div class="flex-none w-32">
-<div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
-<img alt="Rugrats: Adventures in Gameland" class="w-full h-full object-cover" loading=lazy src=/images/rugrats-adventures-in-gameland.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
-</div>
-<p class="text-sm line-clamp-1">Rugrats: Adventures in Gameland</p>
-<p class="text-muted-foreground text-xs"> 2024/09/10</p>
-</div>
-</a>
-<a href=https://gamerift.github.io/posts/hive-jump-2-survivors/ aria-label="Hive Jump 2: Survivors" class=entry-link>
-<div class="flex-none w-32">
-<div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
-<img alt="Hive Jump 2: Survivors" class="w-full h-full object-cover" loading=lazy src=/images/hive-jump-2-survivors.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
-</div>
-<p class="text-sm line-clamp-1">Hive Jump 2: Survivors</p>
-<p class="text-muted-foreground text-xs"> 2024/09/10</p>
-</div>
-</a>
-<a href=https://gamerift.github.io/posts/volcano-princess/ aria-label="Volcano Princess" class=entry-link>
-<div class="flex-none w-32">
-<div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
-<img alt="Volcano Princess" class="w-full h-full object-cover" loading=lazy src=/images/volcano-princess.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
-</div>
-<p class="text-sm line-clamp-1">Volcano Princess</p>
-<p class="text-muted-foreground text-xs"> 2023/04/21</p>
-</div>
-</a>
-<a href=https://gamerift.github.io/posts/ark-survival-evolved/ aria-label="ARK: Survival Evolved" class=entry-link>
-<div class="flex-none w-32">
-<div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
-<img alt="ARK: Survival Evolved" class="w-full h-full object-cover" loading=lazy src=/images/ark-survival-evolved.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
-</div>
-<p class="text-sm line-clamp-1">ARK: Survival Evolved</p>
-<p class="text-muted-foreground text-xs"> 2017/08/28</p>
-</div>
-</a>
-<a href=https://gamerift.github.io/posts/signalis/ aria-label=SIGNALIS class=entry-link>
-<div class="flex-none w-32">
-<div class="aspect-square bg-muted rounded-lg mb-2 overflow-hidden">
-<img alt=SIGNALIS class="w-full h-full object-cover" loading=lazy src=/images/signalis.jpg onerror="this.onerror=null,this.src='/images/not-found-image.svg'">
-</div>
-<p class="text-sm line-clamp-1">SIGNALIS</p>
-<p class="text-muted-foreground text-xs"> 2022/10/27</p>
+<p class="text-sm line-clamp-1">Soulmask</p>
+<p class="text-muted-foreground text-xs"> 0001/01/01</p>
 </div>
 </a>
 </div>

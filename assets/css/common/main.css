@@ -432,6 +432,13 @@ input[type="checkbox"]:checked + .overlay {
   display: flex;
 }
 
+.video-card {
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+  background: #000;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
